@@ -17,19 +17,25 @@ function Home() {
     { id: 4, name: 'Chips', price: 20, image: '🥔' }
   ]; }
   return (
-    <div>
+    <>
+      <div>
         <div className="header">
-            <div className="logo">Instamart</div>
-                <div className="search">
-                    <Search className="search-icon" size={20} color="#999" />
-                    <input type="text" placeholder="Search products..." />
-                </div>
-            <button className="cart-btn">
-                <ShoppingCart size={20} />
-                    Cart
-            </button>
+          <div className="logo">Instamart</div>
+          <div className="search">
+            <Search className="search-icon" size={20} color="#999" />
+            <input type="text" placeholder="Search products..." />
+          </div>
+          <button className="cart-btn">
+            <ShoppingCart size={20} />
+            Cart
+          </button>
         </div>
-    </div>
+      </div>
+      <div className="banner">
+        <h1>Groceries in Minutes</h1>
+        <p>Fresh products delivered fast</p>
+      </div>
+    </>
   )
 }
 
