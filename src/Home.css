@@ -63,5 +63,8 @@ color: #333;
 margin-bottom: 10px;
 }
 
-
+.banner p {
+font-size: 1.2rem;
+color: #666;
+}
 
