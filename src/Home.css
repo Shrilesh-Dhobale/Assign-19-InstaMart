@@ -33,3 +33,10 @@ width: 300px;
 margin-right: 5px;
 }
 
+.search input {
+border: none;
+outline: none;
+flex: 1;
+}
+
+.
