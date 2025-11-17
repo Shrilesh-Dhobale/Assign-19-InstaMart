@@ -4,7 +4,7 @@ import './About.css';
 function About() {
   return (
     <div className="about-container">
-      <h1>About InstaMart</h1>
+      <h1>InstaMart - About Us</h1>
       <p>InstaMart is your go-to platform for quick and fresh grocery deliveries. We bring the store to your doorstep with a wide variety of products, from vegetables to snacks, ensuring quality and convenience.</p>
       <div className="about-features">
         <div className="feature">

@@ -20,7 +20,7 @@ function Home() {
     <>
       
       <div className="banner">
-        <h1>Groceries in Minutes</h1>
+        <h1>InstaMart - Groceries in Minutes</h1>
         <p>Fresh products delivered fast</p>
       </div>
     </>

@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div className="contact-container">
-      <h2>Contact & Support</h2>
+      <h2>InstaMart Contact & Support</h2>
       <div className="contact-info">
         <p><strong>Email:</strong> help@instamart.com</p>
         <p><strong>Phone:</strong> +91 90000 00000</p>
