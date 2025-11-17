@@ -1,19 +1,22 @@
 import React from 'react'
+import './Contact.css'
 
 function Contact() {
   return (
-    <div>
-    <h2>Contact & Support</h2>
-    <p>1. Email: help@instamart.com</p>
-    <p>2. Phone: +91 90000 00000</p>
-    <p>3. Address: 123 Insta St, Mumbai</p>
-    <p>4. Hours: Mon–Sun 8:00 AM – 10:00 PM</p>
-    <p>5. Orders: track your order at /orders</p>
-    <p>6. FAQs: /help/faqs</p>
-    <p>7. Returns: 7-day return policy</p>
-    <p>8. Live chat: available in app</p>
-    <p>9. Follow: @instamart_official</p>
-    <p>10. Support portal: /support</p>
+    <div className="contact-container">
+      <h2>Contact & Support</h2>
+      <div className="contact-info">
+        <p><strong>Email:</strong> help@instamart.com</p>
+        <p><strong>Phone:</strong> +91 90000 00000</p>
+        <p><strong>Address:</strong> 123 Insta St, Mumbai</p>
+        <p><strong>Hours:</strong> Mon–Sun 8:00 AM – 10:00 PM</p>
+        <p><strong>Orders:</strong> track your order at /orders</p>
+        <p><strong>FAQs:</strong> /help/faqs</p>
+        <p><strong>Returns:</strong> 7-day return policy</p>
+        <p><strong>Live chat:</strong> available in app</p>
+        <p><strong>Follow:</strong> @instamart_official</p>
+        <p><strong>Support portal:</strong> /support</p>
+      </div>
     </div>
   )
 }

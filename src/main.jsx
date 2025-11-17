@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './Home.jsx'
 import About from './About.jsx'
+import Contact from './Contact.jsx'
 import Navbar from './Navbar.jsx'
 import React from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import { Contact } from 'lucide-react'
 
 const root = createRoot(document.getElementById('root'));
 
