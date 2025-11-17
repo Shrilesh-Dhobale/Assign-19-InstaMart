@@ -9,6 +9,8 @@ createRoot(document.getElementById('root'));
 
 ReactDOM.createRoot(root).render(
     <BrowserRouter>
-        <Home />
+        <Routes>
+            <Route path='/' element={<Home/>}/>
+        </Routes>
     </BrowserRouter>
     )
